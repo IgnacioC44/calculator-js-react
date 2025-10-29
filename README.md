@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧮 Calculadora React
 
-## Getting Started
+Una calculadora web funcional construida con React, Next.js y TailwindCSS.
 
-First, run the development server:
+## 🚀 Tecnologías
+
+- **Next.js 15** - Framework de React
+- **React 19** - Biblioteca UI
+- **TailwindCSS 4** - Estilos
+- **JavaScript/JSX** - Lenguaje
+
+## 📦 Instalación
 
 ```bash
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Características
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ➕ Suma, resta, multiplicación y división
+- 🔢 Números del 0-9 y punto decimal
+- 🧹 Botón clear para limpiar
+- 🎨 Interfaz moderna estilo iOS
+- 📱 Diseño responsive
 
-## Learn More
+## 📁 Estructura
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/app/features/calculator/
+├── components/      # Componentes (Button, Header, Root)
+├── calc_feat.jsx    # Lógica principal
+└── index.jsx        # Exportaciones
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Uso
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+La calculadora funciona como cualquier calculadora básica:
+1. Click en los números
+2. Click en operadores (+, -, x, /)
+3. Click en = para calcular
+4. Click en C para limpiar
 
-## Deploy on Vercel
+## 👨‍💻 Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ignacio C - [@IgnacioC44](https://github.com/IgnacioC44)
